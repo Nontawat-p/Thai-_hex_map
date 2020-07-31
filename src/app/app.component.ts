@@ -1,4 +1,7 @@
 import { Component } from '@angular/core';
+import { Chart } from 'angular-highcharts';
+import { statusChartOptions } from './helper/statusChartOptions';
+
 
 @Component({
   selector: 'app-root',
@@ -6,5 +9,7 @@ import { Component } from '@angular/core';
   styleUrls: ['./app.component.css']
 })
 export class AppComponent {
-  title = 'my-app';
+  title = 'Hello';
+  statusChart = new Chart(statusChartOptions);
+
 }

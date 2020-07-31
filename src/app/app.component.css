@@ -1,0 +1,7 @@
+.container {
+    display: grid;
+    padding: 10px;
+    grid-template-columns: repeat(auto-fit, minmax(700px, 700px));
+    place-content: center;
+    margin-top: 0zpx auto;
+  }
